@@ -1,0 +1,29 @@
+.pt6 {
+  padding-top: 8rem;
+}
+
+.kine {
+  width: 1.5rem;
+  border: 2px solid #000;
+}
+
+.signupruls {
+  text-decoration: none;
+}
+
+.signupruls:hover {
+  text-decoration: underline;
+}
+
+.accordion-button::after {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.follow-link {
+  text-decoration: none !important;
+}
+
+.follow-link:hover {
+  text-decoration: underline !important;
+}

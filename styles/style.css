@@ -1,0 +1,210 @@
+@font-face {
+  font-family: font-vazir;
+  src: url("../styles/fonts/Vazir-Light-FD.woff") format("woff");
+}
+
+body {
+  font-family: font-vazir !important;
+  overflow-x: hidden !important;
+}
+
+.navbar-nav a:hover {
+  color: #ff5722 !important;
+}
+
+.btnorange {
+  background-color: #ff5722;
+  color: #fff;
+  border: 1px solid #ff5722;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.btnorange:hover {
+  transform: scale(0.98);
+}
+
+svg:hover path:nth-child(n + 1) {
+  fill: #ff5722;
+}
+
+svg:hover path:nth-child(3) {
+  fill: #000000;
+}
+
+/*...............................header...................*/
+
+.bgHeader {
+  background-image: url("../images/banner.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 27rem;
+}
+
+.bgdiv {
+  width: 552px;
+  padding: 1rem;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    51deg,
+    rgba(23, 26, 60, 0.7) 5%,
+    rgba(23, 26, 60, 0.3) 95%
+  );
+  position: relative;
+  top: 3.6rem;
+  right: 8rem;
+  z-index: 1000;
+}
+
+.fsexplain {
+  font-size: 1.5rem;
+}
+
+.btnwhite {
+  background-color: #fff;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  width: 15rem;
+}
+
+.btnoutlinewhite {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  width: 15rem;
+}
+
+.btnwhite:hover,
+.btnoutlinewhite:hover {
+  color: #a8a8a8 !important;
+}
+
+.imgPhone {
+  width: 25rem;
+  top: 9rem;
+  left: 8rem;
+}
+
+/*.......................section one...............*/
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.pointer a {
+  max-width: 95px;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  margin: 0 1rem;
+  opacity: 0.5;
+}
+
+.pointer a.active {
+  opacity: 1;
+}
+
+.pTopSectionOne {
+  padding-top: 220px;
+}
+
+.justifyText {
+  text-align: justify;
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 32px;
+}
+
+/*..................section 2....................*/
+
+.infoSazmani {
+  color: #ff5722;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.infoSazmani:hover {
+  color: #e93802;
+}
+
+.mt6 {
+  margin-top: 10rem;
+}
+
+/*...................section have paralex...............*/
+
+.parallax {
+  background-image: url("../images/parallax.jpeg");
+  height: 10rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.verticalLine {
+  height: 2rem;
+  border-left: 2px solid #ffffff;
+}
+
+.pt7 {
+  padding-top: 4rem;
+}
+
+.fsexplainParalex {
+  display: none;
+}
+.paralextitle {
+  width: 24.5%;
+}
+.paralextitle:hover > .fsexplainParalex {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/*...........section 3.......................................*/
+
+.radiusthings {
+  border-radius: 12px !important;
+}
+
+/*.......................section 4 (cards)..................*/
+
+.hovercards:hover {
+  background-color: #fff;
+
+  box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+}
+
+/*................section map.........................*/
+.bgmap {
+  background-image: url("../images/map-back.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*................footer................................*/
+
+.bgblack {
+  background-color: #000;
+}
+
+.fsSmal {
+  font-size: 12px;
+}
+
+.fsMedium {
+  font-size: 14px;
+}
+
+.Social {
+  color: rgb(70, 70, 70);
+}
+.Social:hover {
+  color: #ff5722 !important;
+}

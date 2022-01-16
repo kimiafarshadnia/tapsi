@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  .bgBanner {
+    height: 600px;
+  }
+
+  .fontSize {
+    font-size: 1rem;
+  }
+
+  .bginput {
+    width: 100%;
+  }
+
+  .formbtn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .bgBanner {
+    height: 750px;
+  }
+}

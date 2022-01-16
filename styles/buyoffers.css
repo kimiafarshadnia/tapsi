@@ -1,0 +1,36 @@
+.bgcover {
+  background-image: url("../images/17077ae8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  text-align: justify;
+  color: #5d6977;
+}
+
+.bgright {
+  background-color: #f0f6fc;
+  border-radius: 16px;
+}
+
+label {
+  font-size: 0.85rem;
+}
+
+.bginput {
+  background-color: #f5f6fa !important;
+}
+
+.btnorange {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+[type="email"],
+[type="number"],
+[type="tel"],
+[type="url"] {
+  direction: rtl !important;
+}

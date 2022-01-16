@@ -1,0 +1,50 @@
+.bgBanner {
+  background-image: url("../images/banner-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 540px;
+}
+
+.pt6 {
+  padding-top: 8rem;
+}
+
+.my6 {
+  margin: 7rem 0;
+}
+
+.fontSize {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.btnoranges {
+  background-color: #ff5722;
+  color: #fff;
+  border: 1px solid #ff5722;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btnoranges:hover {
+  color: #fff;
+}
+
+.wtel,
+.wmail {
+  width: 25px;
+}
+
+.vline {
+  height: 20rem;
+  border-left: 2px solid #cacaca;
+}
+
+.bginput {
+  background-color: rgb(225, 225, 225);
+  padding: 0.75rem;
+  width: 75%;
+}
